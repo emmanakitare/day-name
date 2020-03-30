@@ -7,9 +7,40 @@
         <title>Akan names</title>
     </head>
     <body style="background-image: url(css/image/pic.jpg); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
-       <div class="jumbotron">
-           <h1 style="font-size: 80px;">AKAN NAMES</h1>
-           <p style="font-size: 80px;">Get your Akan name real quick!!</p>
-       </div> 
+      <div class="container-fluid">
+        <div class="jumbotron">
+          <div class="jumbotron p-0 left">
+            <div class="appearance">
+                <h1>Akan Names</h1>
+                <p>The Akan are a meta-ethnic group who live in Ghana.Frequently in Ghana children are named according to the day of the week in which they are born using known akan names. This application will help you know your akan name.</p>
+                <p class="try-it">Get your akan name real quick!!</p>  
+            </div>  
+          </div>   
+        </div>  
+      </div>
+      <div class="form-group top-form">
+          <label for="century">Century</label>
+          <input type="number" class="form-control" placeholder="Enter the century" id="century">
+      </div>
+      <div class="form-group">
+          <label for="year">Year of Birth</label>
+          <input type="number" class="form-control" placeholder="Enter Your the Year of Birth" id="year">
+      </div>
+      <div class="form-group">
+          <label for="month">Month</label>
+          <input type="number" class="form-control" placeholder="Enter the Month of The Year" id="month">
+      </div>
+      <div class="form-group">
+          <label for="Day">Day of the month</label>
+          <input type="number" class="form-control" placeholder="Enter the Day of the month" id="day">
+      </div>
+      <div class="form-group">
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+      </div>
+      <br>
+      <a href="#" class="btn btn-info" role="button" onclick="checkDayOfWeek">SUBMIT</a>
     </body>
 </html>
