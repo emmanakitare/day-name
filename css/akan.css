@@ -8,3 +8,17 @@
 .try-it {
     font-size: 50px;
 }
+.forms {
+    font-size: 40px;
+}
+.form-group {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    size: 40px;
+    background-color: grey;
+}
