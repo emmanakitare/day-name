@@ -9,13 +9,13 @@ function getInput() {
 if (century==="") {
   alert ("Input century");
   return false;
-} elseif (year==="") {
+} elseif (year===""); {
   alert ("Input correct year");
   return false;
-} elseif (month==="" && month<0||month>12) {
+} elseif (month==="" && month < 0 || month > 12); {
   alert ("Invalid month");
   return false;
-} elseif (dayOfMonth==="" && dayOfMonth<0||dayOfMonth>31) {
+} elseif (dayOfMonth==="" && dayOfMonth < 0 || dayOfMonth > 31); {
   alert ("Invalid day");
   return false;
   }
@@ -24,7 +24,7 @@ if (century==="") {
 function computeWeekDay() {
     getInput();
     dayOfWeek = ((((century / 4) - 2 * century-1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + dayOfMonth) % 7) - 1;
-    let (dayOfWeek); //Test the computeWeekDay function
+    let (dayOfWeek); //Tests the computeWeekDay function
     return (Math.floor(dayOfWeek));
 
 }
@@ -32,7 +32,7 @@ function computeWeekDay() {
 function findDayOfWeek() {
     day = computeWeekDay()
     checkGender();
-    let ("The function runs"); //Test the findDayOfWeek function
+     ("The function runs"); //Tests the findDayOfWeek function
 }
 
 
