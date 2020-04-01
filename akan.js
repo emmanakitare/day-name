@@ -52,7 +52,7 @@ function checkgender() {
     }
 }
 switch (gender) {
-    case gender = "male":
+    case gender = "Male":
         switch (day) {
             case (0):
                 document.getElementById("result").innerHTML = "You were born on a Sunday." + " " + "Your Akan name is" + maleNames[0];
@@ -77,5 +77,26 @@ switch (gender) {
                 break;
             default:
                 console.log("Pass"); //Test male case        
+        }
+        break;
+    case gender = "Female":
+        switch (day) {
+            case (0):
+                document.getElementById("result").innerHTML = "You were born on a Sunday." + " " + "Your Akan name is" + femaleNames[0];
+            case (1):
+                document.getElementById("result").innerHTML = "You were born on a Sunday." + " " + "Your Akan name is" + femaleNames[1];
+            case (2):
+                document.getElementById("result").innerHTML = "You were born on a Sunday." + " " + "Your Akan name is" + femaleNames[2];
+            case (3):
+                document.getElementById("result").innerHTML = "You were born on a Sunday." + " " + "Your Akan name is" + femaleNames[3];
+            case (4):
+                document.getElementById("result").innerHTML = "You were born on a Sunday." + " " + "Your Akan name is" + femaleNames[4];
+            case (5):
+                document.getElementById("result").innerHTML = "You were born on a Sunday." + " " + "Your Akan name is" + femaleNames[5];
+            case (6):
+                document.getElementById("result").innerHTML = "You were born on a Sunday." + " " + "Your Akan name is" + femaleNames[6];
+                break;
+            default:
+                console.log("Pass"); //Test gender switch                  
         }
 }
