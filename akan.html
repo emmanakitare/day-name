@@ -6,18 +6,19 @@
         <link href="css/akan.css" rel="stylesheet" type="text/css" media="all">
         <title>Akan names</title>
     </head>
-    <body style="background-image: url(css/image/pic.jpg); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+    <body style="background-image: url(css/image/flag.jpg); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
       <div class="container-fluid">
         <div class="jumbotron">
-          <div class="jumbotron p-0 left">
-            <div class="appearance">
-                <h1>Akan Names</h1>
-                <p>The Akan are a meta-ethnic group who live in Ghana.Frequently in Ghana children are named according to the day of the week in which they are born using known akan names. This application will help you know your akan name.</p>
-                <p class="try-it">Get your akan name real quick!!</p>  
-            </div>  
-          </div>   
+          <div class="appearance">
+            <h1>Akan Names</h1>
+            <p>The Akan are a meta-ethnic group who live in Ghana.Frequently in Ghana children are named according to the day of the week in which they are born using known akan names. This application will help you know your akan name. The user is required to fill in their birth information which the application uses to compute the day of the week that one was born and hence assign a corresponding akan name.</p>
+            <p class="try-it">Get your akan name real quick!!</p>  
+          </div>     
         </div>  
       </div>
+      <div id="details">
+       <p>Please key in the following details:</p>
+      </div> 
       <div class="form">       
        <div class="form-group top-form">
            <label for="century">Century</label>
@@ -25,7 +26,7 @@
        </div>
        <div class="form-group">
            <label for="year">Year of Birth</label>
-           <input type="number" class="form-control" placeholder="Enter Your the Year of Birth" id="year">
+           <input type="number" class="form-control" placeholder="Enter Your Year of Birth" id="year">
        </div>
        <div class="form-group">
            <label for="month">Month</label>
@@ -42,9 +43,11 @@
            <label for="female">Female</label>
        </div>
       </div> 
-     <br>
-     <div class="btn">
-      <a href="#result"><button type="button" class="btn btn-primary btn-block" onclick="findDayOfWeek()">SUBMIT</button>
-     </div>
+      <br>
+      <div class="btn">
+       <a href="#result"><button type="button" class="btn btn-primary btn-block" onclick="findDayOfWeek()">SUBMIT</button>
+      </div>
+      <br>
+      <p style="font-size: 50px;">Now you are Akan!</p>
     </body>
 </html>
