@@ -18,4 +18,4 @@ Javascript
 ![](emmanakitare10@gmail.com)
 ### License
 MIT License
-Copyright (c) 2020 **{List of contributors or company name}**
+Copyright (c) 2020 ****
